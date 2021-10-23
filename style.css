@@ -7,6 +7,7 @@
 }
 *{
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
 }
 body{
     margin: 0;
@@ -59,14 +60,14 @@ i{
 }
 .categories{
     display: flex;
-    width: 64px;
+    width: 65px;
     height: 100%;
     flex-direction: column;
     padding: 10px;
     background-color: rgb(229, 233, 232);
     margin-top: 61px;
     position: fixed;
-    margin-right: 1450px;
+    margin-right: 1460px;
 }
 .icons-width{
     display: flex;
@@ -88,6 +89,7 @@ i{
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 1px solid #b0aeae;
+   
 }
 .inner-icons{
     width: 100px;
@@ -95,6 +97,7 @@ i{
     background-color:#f2f0f0;
     border-radius: 20px;
     border: 1px solid black ;
+    border: none;
     
 }
 .inner-icons:hover{
@@ -111,7 +114,6 @@ i{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    margin-left: 32px;
 }
 .mainVideo-div{
       width: 100%;
@@ -119,6 +121,7 @@ i{
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+      padding-left: 50px;
 
 }
 .video{
